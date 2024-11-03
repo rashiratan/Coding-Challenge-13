@@ -27,3 +27,4 @@ fetch('https://www.course-api.com/javascript-store-products')
             productList.appendChild(listItem); //adding list item to list
             });
         })
+        //adding second commit to fix wrong commit messgae before
