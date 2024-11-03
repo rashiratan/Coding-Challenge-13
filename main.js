@@ -28,3 +28,7 @@ fetch('https://www.course-api.com/javascript-store-products')
             });
         })
         //adding second commit to fix wrong commit messgae before
+        .catch(error => { //catching error with fetch
+            console.error('There was a problem with the fetch operation:', error);
+        });
+    
